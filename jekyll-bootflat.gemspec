@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-bootflat"
-  spec.version       = "0.1.0"
+  spec.version       = "0.2"
   spec.authors       = ["Stefan Haslinger"]
   spec.email         = ["stefan.haslinger@panoptikum.io"]
 
@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://github.com/jekyll-octopod/jekyll-bootflat."
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README|index|screenshot)}i) }
 
   spec.add_runtime_dependency "jekyll", "~> 3.3"
 

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Index
+---
 # jekyll-bootflat
 
 jekyll-bootflat is a gem based theme for Jekyll, and has been extracted out of
