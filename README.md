@@ -10,8 +10,7 @@ I am a Bootflat fanboy, and I agree to their tagline
 
 ## Preview
 
-![preview](screenshot.png){:style="width: 90%;"}
-
+<img alt="preview" src="screenshot.png" style="width: 60%;">
 
 ## Installation
 
