@@ -8,6 +8,11 @@ and [Font Awesome](http://fontawesome.io/)
 I am a Bootflat fanboy, and I agree to their tagline
 "_Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design._"
 
+## Preview
+
+![preview](screenshot.png){:style="width: 90%;"}
+
+
 ## Installation
 
 Add this line to your Jekyll site's Gemfile:
