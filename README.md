@@ -4,11 +4,14 @@ jekyll-bootflat is a gem based theme for Jekyll, and has been extracted out of
 [jekyll octopod](https://jekyll-octopod.github.io/) and will be used there.
 
 It is basically a Twitter Bootstrap theme, but extended by [Bootflat](http://bootflat.github.io/)
-and [Font Awesome](http://fontawesome.io/)
+and [Font Awesome](http://fontawesome.io/).
+
 I am a Bootflat fanboy, and I agree to their tagline
 "_Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design._"
 
 ## Preview
+
+What's better than a screenshot?
 
 <img alt="preview" src="screenshot.png" style="width: 60%;">
 
