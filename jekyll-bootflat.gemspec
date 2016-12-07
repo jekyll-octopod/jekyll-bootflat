@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["stefan.haslinger@panoptikum.io"]
 
   spec.summary       = %q{Twitter Bootstrap + Bootflat + Fontawesome = jekyll-bootflat theme}
-  spec.homepage      = "http://github.com/jekyll-octopod/jekyll-bootflat."
+  spec.homepage      = "http://github.com/jekyll-octopod/jekyll-bootflat"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README|index|screenshot)}i) }
