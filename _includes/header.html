@@ -1,0 +1,37 @@
+<header class="site-header">
+  <nav class="navbar navbar-default light-grey">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="/">
+          <img src="{{ site.url }}/img/logo.jpeg" height="65">
+        </a>
+      </div>
+
+      <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+                Welcome <span class="caret"></span>
+              </a>
+            </li>
+            <li><a href="#">A link</a></li>
+            <li><a href="#">Another link</a></li>
+          </ul>
+        <form class="navbar-form navbar-right" action="https://google.com/search" method="get" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search term">
+            <input type="hidden" name="q" value="site:{{ site.url | host_from_url }}" />
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+</header>
