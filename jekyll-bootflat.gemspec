@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-bootflat"
-  spec.version       = "0.2.2"
+  spec.version       = "0.2.3"
   spec.authors       = ["Stefan Haslinger"]
   spec.email         = ["stefan.haslinger@panoptikum.io"]
 
