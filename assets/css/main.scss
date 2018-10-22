@@ -5,7 +5,7 @@
 
 
 // Our variables
-$font-family-base: Ubuntu, Helvetica, Arial, sans-serif;
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
 $spacing-unit:     30px;
 
@@ -19,6 +19,10 @@ $spacing-unit:     30px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+
+// jekyll asset serving-path
+$fa-font-path: "/assets/fonts";
+
 @import
         "bootstrap",
         "bootflat",
