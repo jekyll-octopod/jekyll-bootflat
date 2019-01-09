@@ -3,30 +3,12 @@
 ---
 @charset "utf-8";
 
-
-// Our variables
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-
+$font-family-base: Ubuntu;
 $spacing-unit:     30px;
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-
-// jekyll asset serving-path
 $fa-font-path: "/assets/fonts";
 
-@import
-        "bootstrap",
+@import "bootstrap",
         "bootflat",
         "syntax-highlighting",
         "font-awesome",
-        "overrides"
-;
+        "overrides";
