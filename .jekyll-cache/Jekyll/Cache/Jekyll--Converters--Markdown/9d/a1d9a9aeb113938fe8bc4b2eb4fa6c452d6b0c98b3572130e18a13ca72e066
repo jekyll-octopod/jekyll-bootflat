@@ -1,0 +1,65 @@
+I"J<h1 id="jekyll-bootflat">jekyll-bootflat</h1>
+
+<p>jekyll-bootflat is a gem based theme for Jekyll, and has been extracted out of
+<a href="https://jekyll-octopod.github.io/">jekyll octopod</a> and will be used there.</p>
+
+<p>It is basically a Twitter Bootstrap theme, but extended by <a href="http://bootflat.github.io/">Bootflat</a>
+and <a href="http://fontawesome.io/">Font Awesome</a>
+I am a Bootflat fanboy, and I agree to their tagline
+“<em>Bootflat is built on the foundations of Bootstrap, visioned in a stunning flat design.</em>”</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Add this line to your Jekyll site’s Gemfile:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"jekyll-bootflat"</span>
+</code></pre></div></div>
+
+<p>And add this line to your Jekyll site’s <code class="highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">jekyll-bootflat</span>
+</code></pre></div></div>
+
+<p>And then execute:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
+
+<p>Or install it yourself as:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install jekyll-bootflat
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<ul>
+  <li>Definitely visit the Bootflat Website, they have an <a href="http://bootflat.github.io/documentation.html">awesome documentation</a></li>
+  <li>I also highly recommend <a href="http://getbootstrap.com/">Bootstrap’s Documentation site</a></li>
+  <li>Finally, also <a href="http://fontawesome.io/">Fontawesome</a> have an awesome documentation.</li>
+</ul>
+
+<p>We stick to their styles, so you won’t find any additional documentation here.</p>
+
+<h2 id="contributing">Contributing</h2>
+
+<p>Bug reports and pull requests are welcome on GitHub at https://github.com/jekyll-octopod/jekyll-bootflat.
+This project is intended to be a safe, welcoming space for collaboration,
+and contributors are expected to adhere to the <a href="http://contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+
+<h2 id="development">Development</h2>
+
+<p>To set up your environment to develop this theme, run <code class="highlighter-rouge">bundle install</code>.</p>
+
+<p>Your theme is setup just like a normal Jekyll site! To test your theme, run <code class="highlighter-rouge">bundle exec jekyll serve</code>
+and open your browser at <code class="highlighter-rouge">http://localhost:4000</code>. This starts a Jekyll server using your theme.
+Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications
+to your theme and to your content, your site will regenerate and you should see the changes in the
+browser after a refresh, just like normal.</p>
+
+<p>When your theme is released, only the files in <code class="highlighter-rouge">_layouts</code>, <code class="highlighter-rouge">_includes</code>, and <code class="highlighter-rouge">_sass</code> tracked with
+Git will be released.</p>
+
+<h2 id="license">License</h2>
+
+<p>The theme is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+:ET
